@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:500px;">
+       <thead>
+        <tr>
+            <th>Precio</th>
+            <th>Producto</th>
+        </tr>   
+       </thead>
+        <tbody>
+            <tr>
+                <td>Hola bits</td>
+                    <td>gratis</td>
+                </td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                    <td>19,90</td>
+                </td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                    <td>19,99</td>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total $39,98</td>
+        </tfoot>
+    </table>
+    <!--ul lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+ <!--ol lista ordenada-->
+    <ol>
+        <li value="20">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha"> sub elemento 1</li>
+                <li  style="list-style-type: lower-alpha;"> sub elemento 2</li>
+                <li  style="list-style-type: lower-alpha;"> sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario." method="GET">
+        <label for="nombre">nombre</label>
+        <input value="chanchito" type="text" id="nombre" name="nombre" placeholder="chanchito"/>
+    <br>
+    <label for="apellido">apellido</label>
+    <input value="feliz" type="text" id="apellido" name="apellido" placeholder="chanchito"/>
+        <br>
+        <label for="comentario">comentario</label>
+    <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentarios" name="comentario"> este es un valor por defecto</textarea>
+    <br>   
+   <button type="button"> boton</button> 
+   <button type="reset">tipo reset</button> 
+   <button type="submit">tipo submit</button> 
+</form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chancito Feliz</h6>
+    <p>Chanchito  Feliz esta muy feliz</p>
+    <p>Chanchito triste, esta muy triste</p>
+    <hr>
+    <h2>Chanchito Felipe</h2>
+    <p>Era un chanchito muy feliz, vivia en el monte con sus
+        abuelos. <span style="color:rgb(33, 22, 187)">
+           <br> jugaba todos los dias </span> con su amigos en la plaza
+        <br> <br> y tenia  muchos autos.
+    </p>
+    <!-- aca va un cuento y no va a aparecer
+    en el explorador-->
+    <a target="_blank" href="https://www.google.com">ir a google</a>
+    <img src="imagen/chanchito.jpeg" height="200" width="200"/>
+    
+</body> 
+</html>
